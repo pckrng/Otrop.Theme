@@ -3,18 +3,56 @@
     margin: 0;
 }
 
+body {
+    overflow: hidden;
+}
+
 #banner {
     width: auto;
     height: auto;
-    background-color: #F0F0F2;
+    background-color: #F2E8DC;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Fredoka One', cursive;
+    color: #59564F;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 #banner h1 {
     padding: 1em;
     letter-spacing: 3px;
-    color: #F26E50;
+    color: #59564F;
+    text-align: center;
+}
+
+#banner h1:hover {
+    color: #0D0D0D;
+    cursor: pointer;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+    padding-top: 2vh;
+    overflow-y: hidden;
+}
+
+.slideBOI {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 2vh;
+}
+
+.intro h2 {
+    margin-bottom: 1vh;
 }
