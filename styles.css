@@ -60,7 +60,16 @@ p {
 }
 
 .quickMail {
-  margin-bottom: 1vh;
   margin-top: 1vh;
+}
+
+.quickMail input {
+  width: 20em;
+  height: 2em;
+  text-align: center;
+  margin-top: 4px;
+  outline: none;
+  border: none;
+  margin-bottom: 1vh;
 }
 /*# sourceMappingURL=styles.css.map */
