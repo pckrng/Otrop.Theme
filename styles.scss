@@ -73,4 +73,15 @@ p {
     outline: none;
     border: none;
     margin-bottom: 1vh;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #A69E94;
+}
+
+input[type=submit]:hover {
+    background-color: #59564F;
+    cursor: pointer;
+    color: white;
 }
