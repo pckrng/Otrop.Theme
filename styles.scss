@@ -41,6 +41,7 @@ p {
     background-color: #F2F2F2;
     padding-top: 2vh;
     overflow-y: hidden;
+    text-align: center;
 }
 
 .slideBOI {
@@ -48,22 +49,47 @@ p {
     margin: 0 auto;
 }
 
-
-
 .intro {
-    margin-bottom: 4vh;
-    margin-left: 10vw;
+    margin-left: 30%;
     width: 40%;
+    background-color: #F2E8DC;
+    border-radius: 8px 8px 0 0;
+    padding-top: .5vh;
 }
 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+    justify-content: center;
+    
+    
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 2px;
+    background-color: #F2E8DC;
+    padding: 2em;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 95%;
+border-radius: 8px 8px 8px 8px;
+}
+
+
+
+
 .intro h2 {
-    margin-bottom: 1vh;
     margin-top: 2vh;
 }
 
-.quickMail {
-    margin-top: 1vh;
-}
 
 .quickMail input {
     width: 20em;
@@ -80,7 +106,7 @@ input[type=submit] {
     background-color: #A69E94;
 }
 
-input[type=submit]:hover {
+.quickMail input[type=submit]:hover {
     background-color: #59564F;
     cursor: pointer;
     color: white;
