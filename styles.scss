@@ -41,7 +41,7 @@ p {
     background-color: #F2F2F2;
     padding-top: 2vh;
     overflow-y: hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .slideBOI {
@@ -50,40 +50,41 @@ p {
 }
 
 .intro {
-    margin-left: 30%;
     width: 40%;
-    background-color: #F2E8DC;
-    border-radius: 8px 8px 0 0;
-    padding-top: .5vh;
+    padding: 1em;
+    z-index: 5;
+    padding-bottom: 5vh;
+    margin-left: 9.5vw;
 }
 
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 2px;
+    padding: 0 1px;
     justify-content: center;
-    
-    
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 2px;
-    background-color: #F2E8DC;
-    padding: 2em;
-    border-radius: 8px 8px 8px 8px;
+    padding: 1em;
+    z-index: 2;
+   
 }
 
 .column img {
 margin-top: 8px;
 vertical-align: middle;
-width: 95%;
+width: 100%;
 border-radius: 8px 8px 8px 8px;
 }
 
-
+.column img:hover {
+    cursor: pointer;
+    box-shadow: #A69E94 8px 8px 8px;
+    }
 
 
 .intro h2 {
@@ -98,8 +99,8 @@ border-radius: 8px 8px 8px 8px;
     margin-top: 4px;
     outline: none;
     border: none;
-    margin-bottom: 1vh;
     font-family: 'Lato', sans-serif;
+    margin-top: .5em;
 }
 
 input[type=submit] {
