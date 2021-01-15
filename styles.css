@@ -153,4 +153,25 @@ img:focus {
   border: none;
   outline: none;
 }
+
+input {
+  background-color: #F2E8DC;
+  margin-right: 1vw;
+  max-width: 30%;
+}
+
+.burgerMenu {
+  width: 35px;
+  height: 5px;
+  background-color: #59564F;
+  margin: 6px 0;
+}
+
+.menu {
+  float: right;
+  left: auto;
+  position: static;
+  margin-top: -8vh;
+  margin-right: 4vw;
+}
 /*# sourceMappingURL=styles.css.map */
