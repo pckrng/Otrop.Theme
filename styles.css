@@ -5,6 +5,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #F2F2F2;
 }
 
 #banner {
@@ -38,23 +39,53 @@ p {
 .content {
   height: 100vh;
   width: 100vw;
-  background-color: #F2F2F2;
-  padding-top: 2vh;
   overflow-y: hidden;
   text-align: left;
 }
 
 .slideBOI {
-  width: 80%;
-  margin: 0 auto;
+  margin-left: 10vw;
+  position: relative;
+}
+
+.slideContainer {
+  display: inline-block;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    display: inline-block;
+    min-width: 100%;
+  }
 }
 
 .intro {
-  width: 40%;
+  width: 70%;
   padding: 1em;
   z-index: 5;
-  padding-bottom: 5vh;
-  margin-left: 9.5vw;
+  padding-bottom: 3vh;
+  text-align: justify;
+  padding-left: 10vw;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 80%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .row {
@@ -73,7 +104,7 @@ p {
   -webkit-box-flex: 25%;
       -ms-flex: 25%;
           flex: 25%;
-  max-width: 25%;
+  max-width: 20%;
   padding: 0 2px;
   padding: 1em;
   z-index: 2;
@@ -97,17 +128,18 @@ p {
 }
 
 .quickMail input {
-  width: 20em;
-  height: 2em;
+  width: 40%;
+  height: 3vh;
   text-align: center;
   margin-top: 4px;
   outline: none;
   border: none;
   font-family: 'Lato', sans-serif;
-  margin-top: .5em;
+  margin-top: 2vh;
 }
 
 input[type=submit] {
+  width: 20%;
   background-color: #A69E94;
 }
 
@@ -115,5 +147,10 @@ input[type=submit] {
   background-color: #59564F;
   cursor: pointer;
   color: white;
+}
+
+img:focus {
+  border: none;
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */
